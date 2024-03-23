@@ -1,0 +1,299 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.About1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: brightness(80%); */
+    background-image: url(../src/Allimg/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1.one {
+    font-size: 100px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+   
+    color: rgb(255, 111, 0);
+    /* z-index: 1; */
+    /* position: absolute; */
+
+}
+
+.bttttttt{
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    margin: 2vw;
+
+}
+
+button:hover {
+    background-color: #ebdde8;
+
+}
+.care{
+    /* margin-top: 10em; */
+    width: 40vw;
+    height: max-content;
+    /* background-color: red; */
+}
+.care1{
+    /* margin-top: 10em; */
+    width: 40vw;
+    height: max-content;
+    /* background-color: red; */
+}
+h1.two {
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 111, 0);
+}
+
+.Page2{
+    /* height: 30vh;
+    margin-top: 20em; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Page2 p {
+    /* position: relative; */
+    color:black;
+    /* margin-right: 30%; */
+}
+
+.p22 {
+    width: 40vw;
+    text-align: center;
+
+}
+
+.p200 {
+    width: 40vw;
+    text-align: center;
+}
+
+h1.three {
+    font-size: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10%; */
+    color: rgb(255, 111, 0);
+}
+
+h2 {
+    color: rgb(153, 100, 50);
+    margin-left: 57%;
+
+}
+
+#main2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 1%;
+
+
+}
+
+.p1 {
+    width: 500px;
+    height: 350px;
+    /* background-color: blue; */
+    margin-top: 8%;
+
+
+}
+
+.p1 img {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+
+.p2 {
+    width: 550px;
+    height: 350px;
+    /* background-color: rgb(0, 255, 85); */
+    margin-top: 8%;
+
+}
+
+.p2 img {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+
+
+.p3 {
+
+
+    width: 550px;
+    height: 350px;
+    /* background-color: rgb(172, 204, 83); */
+
+    margin-top: 8%;
+
+}
+
+.p3 img {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+
+.p1 img:hover,
+.p2 img:hover,
+.p3 img:hover {
+    transform: scale(1.1);
+
+}
+
+#main3 {
+    width: 100%;
+    height: 45vh;
+    background-color: #e99f9f;
+}
+
+.page4 h1 {
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgb(171, 50, 219);
+    margin-right: 60%;
+
+}
+
+.page4 p {
+    font-size: 22px;
+    margin-left: 20px;
+    width: 100%;
+    color: #ebdde8
+}
+
+/* Add media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    /* .About1 img {
+        height: auto;
+        width: 100vw;
+    } */
+
+    .Page2 {
+        flex-direction: column;
+        gap:20px
+    }
+    .care , .care1{
+        width: 100%;
+        height: max-content;
+    }
+    
+    h1.one {
+        font-size: 10vw;
+        /* margin-top: -30%;
+        margin-left: 10%; */
+    }
+
+    h1.two {
+        font-size: 30px;
+        /* margin-left: -10%; */
+        justify-content: space-around;
+    }
+
+    /* .Page2 p {
+        margin-left: 30%;
+    } */
+
+    .p22,
+    .p200 {
+        /* margin-left: 5%; */
+        width: 100%;
+    text-align: center;
+    }
+
+    h1.three {
+        font-size: 35px;
+        /* margin-left: -10%; */
+    }
+
+    h2 {
+        margin-left: 30%;
+    }
+    #main2 {
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 10em; */
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .page4 h1 {
+        font-size: 50px;
+        margin-top: 10%;
+        margin-right: 0;
+    }
+
+    .page4 p {
+        font-size: 18px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #main3 {
+        height: auto;
+    }
+
+    #main3:hover {
+        transform: none;
+        background-color: #e99f9f;
+    }
+}   
+
+
+
+
+

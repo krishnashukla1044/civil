@@ -1,0 +1,374 @@
+.nav12 {
+
+    background-color: transparent;
+    list-style: none;
+gap: 30px;
+justify-content: end;
+    display: flex;
+}
+
+.cccc{
+    font-size: 15px;
+    font-style: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.nav12 li {
+    /* margin-top: 100px; */
+    color: black;
+    text-decoration: none;
+    /* margin-right: 20px; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.nav12 li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-left: 1%; */
+}
+
+.nav12 li a:hover {
+    color: #ffc107;
+    /* Change text color on hover */
+}
+
+.haa1 {
+    font-size: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .llaa {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    max-width: 100vw;
+    height: 60vh;
+    margin-top: 1em;
+
+}
+
+.nmscje{
+    width: 100%;
+    height: max-content;
+
+}
+.allbox {
+    margin-top: 20px;
+    width: 20vw;
+    height: 38vh;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.751);
+    margin-right: 20px;
+}
+
+
+.no {
+    width: 120px;
+    margin-top: 10px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 8px;
+    margin-left: 80px;
+}
+
+.peraaaa {
+    z-index: 1;
+    margin-top: -20px;
+    width: 230px;
+    margin-left: -50px;
+    border-radius: 10%;
+    border: 2px dotted orange;
+}
+
+
+.no1 {
+    font-size: 40px;
+    display: flex;
+    color: black;
+    margin-left: 45px;
+    /* overflow: hidden; */
+/* } */
+
+/* .boxP {
+    height: 25vh;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.hh3 {
+    width: 20px;
+    margin-left: 70px;
+    transform: translate(-50%, 100%);
+} */
+/* 
+.foott {
+    position: absolute;
+    bottom: 4%;
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(4, 4, 120);
+}
+
+.foott1 {
+    position: absolute;
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: -29%;
+    background-color: rgb(4, 4, 120);
+} */ */
+
+.rfs5{
+
+    width: 100vw;
+    height: max-content;
+    background-color: #07ff45;
+}
+.fd457c{
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    top: -33px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #ffc107;
+}
+.csdc5{
+    font-size: 30px;
+}
+.fsvg4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rfuje5{
+    border-radius: 20px;
+    margin-top: 40px ;
+    border:2px dotted #ffc107;
+    padding: 10px;
+    text-align:center ;
+}
+.dscm5{
+width: 100%;
+gap: 20px;
+height: max-content;
+padding: 0px 20px;
+justify-content: space-around;
+display: flex;
+}
+.fsdf5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.frunsie5{
+    width:70%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 60px;
+
+}
+
+.clints {
+    margin-top: 10px;
+    max-width: 100vw;
+    height: 70vh;
+}
+
+.coco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.haa2 {
+    margin-top: 30px;
+    font-size: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cccc {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cont1 {
+    /* margin-top: 40px; */
+    position: relative;
+    background-color:  rgb(4, 4, 120);
+    height: 34vh;
+    width: 20vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 20px;
+}
+
+.cont2{
+    /* position: relative; */
+    background-color:  rgba(215, 154, 41, 0.934);
+    height: 38vh;
+    width: 20vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 20px;
+}
+
+.cont h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont2 h1{
+    font-size: 50px;
+    font-weight: 100;
+    
+    color: black;
+}
+
+.hhuu {
+    /* position: absolute; */
+    /* margin-top: 10px; */
+    /* width: 70%; */
+    /* margin-left: -20%; */
+    text-align: center;
+    color: aliceblue;
+}
+.hhuu1{
+    margin: 10px;
+    width: 100%;
+    color: black;
+}
+.blblb{
+    color: black;
+}
+
+/* Existing styles here */
+
+/* Add media queries for responsive design */
+
+@media only screen and (max-width: 768px) {
+    .nav12 {
+        margin-left: 0;
+    }
+
+    .dscm5{
+    flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .nav12 li {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    
+    .nav12 li a {
+        font-size: 16px;
+    }
+    
+    .no {
+        margin-left: 40px;
+    }
+    
+    .peraaaa {
+        width: 200px;
+        margin-left: -30px;
+    }
+    
+    .hh3 {
+        margin-left: 50px;
+    }
+    
+   
+    
+    .cont1,
+    .cont2 {
+        width: 40vw;
+    }
+    
+    .cont h1,
+    .cont2 h1 {
+        font-size: 40px;
+        /* margin-top: -60px; */
+    }
+    
+    .hhuu,
+    .hhuu1 {
+        width: 100%;
+        /* margin-left: -5%; */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .nav12 {
+        flex-wrap: wrap;
+    }
+    
+    .nav12 li {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    
+    .nav12 li a {
+        font-size: 14px;
+    }
+    
+    .no {
+        margin-left: 20px;
+        width: 100px;
+    }
+    
+    .peraaaa {
+        width: 160px;
+        margin-left: -40px;
+    }
+    
+    .hh3 {
+        margin-left: 40px;
+    }
+    
+    .boxP {
+        width: 8vw;
+    }
+    
+    .cont1,
+    .cont2 {
+        width: 70vw;
+    }
+    
+    .cont h1,
+    .cont2 h1 {
+        font-size: 30px;
+        /* margin-top: -50px; */
+    }
+    
+    .hhuu,
+    .hhuu1 {
+        /* width: 100%; */
+        margin-left: 5px;
+    }
+}
